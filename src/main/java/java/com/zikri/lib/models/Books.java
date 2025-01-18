@@ -21,7 +21,7 @@ public class Books {
     @Id
     @GeneratedValue
     @UuidGenerator
-    private Long id;
+    private String id;
 
     @Column(length = 100)
     private String title;
