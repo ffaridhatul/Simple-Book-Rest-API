@@ -84,9 +84,10 @@ public class BookServiceImpl implements BookService {
     public BookResponse deleteBookById(String uuid) {
         Books book = bookRepository.findById(uuid).orElseThrow(() ->
                 new NoSuchElementException("Book not found"));
-        book.setDeleted(true);
-        bookRepository.save(book);
+//        book.setDeleted(true);
+//        bookRepository.save(book);
+        bookRepository.delete(book);
 
-        return new BookResponse(HttpStatus.OK.value(), "deleted success", null);
+        return new BookResponse(HttpStatus.OK.value(), "deleted success", book);
     }
 }
