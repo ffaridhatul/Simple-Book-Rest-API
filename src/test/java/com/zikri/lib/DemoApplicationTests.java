@@ -1,4 +1,4 @@
-package java.com.zikri.lib;
+package com.zikri.lib;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

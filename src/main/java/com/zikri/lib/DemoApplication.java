@@ -1,4 +1,4 @@
-package java.com.zikri.lib;
+package com.zikri.lib;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

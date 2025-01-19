@@ -1,4 +1,4 @@
-package java.com.zikri.lib.models;
+package com.zikri.lib.models;
 
 
 import jakarta.persistence.*;

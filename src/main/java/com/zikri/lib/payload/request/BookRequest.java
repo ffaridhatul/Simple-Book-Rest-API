@@ -1,4 +1,4 @@
-package java.com.zikri.lib.payload.request;
+package com.zikri.lib.payload.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
